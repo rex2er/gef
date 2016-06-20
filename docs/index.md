@@ -89,7 +89,7 @@ $ pip3 install capstone   # for Python3.x
 `capstone` and `keystone` are under very active development and improvement, so it is recommended to compile and install them from git.
 ```bash
 $ git clone https://github.com/keystone-engine/keystone.git
-$ mkdir -p keystone/build && keystone/build
+$ mkdir -p keystone/build && cd keystone/build
 $ cmake .. && make -j8
 $ sudo make install
 $ cd ../bindings/python && sudo make install # or sudo make install3 for Python3
